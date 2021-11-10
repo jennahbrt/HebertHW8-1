@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "building control_GPIO.cpp"
+g++ control_GPIO.cpp -o control_GPIO
+echo "build complete"
+echo "example exectution:"./control_GPIO 60 hi 46""
