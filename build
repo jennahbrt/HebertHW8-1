@@ -1,5 +1,7 @@
 #!/bin/bash
 echo "building control_GPIO.cpp"
 g++ control_GPIO.cpp -o control_GPIO
+config-pin -a p8.16 in+
+config-pin -a p9.12 out
 echo "build complete"
 echo "example exectution:"./control_GPIO 60 hi 46""
